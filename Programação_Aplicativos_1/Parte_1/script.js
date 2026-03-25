@@ -108,7 +108,7 @@ const total_10 = qtd_10.reduce((acc, x) => {
 
 let valor_a_procurar = "teste"
 let encontrado = total.find((x) => x.nome === valor_a_procurar)
-// Não vi onde implementar o find nos exercicios, então eu deixei um exemplo da sintaxe do find acima
+// Não vi onde implementar o find.  nos exercicios, então eu deixei um exemplo da sintaxe do find acima
 
 let maior = 0
 let menor = 0
