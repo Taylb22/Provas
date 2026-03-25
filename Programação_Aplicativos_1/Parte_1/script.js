@@ -106,6 +106,10 @@ const total_10 = qtd_10.reduce((acc, x) => {
     return acc + x.preco
 }, 0)
 
+let valor_a_procurar = "teste"
+let encontrado = total.find((x) => x.nome === valor_a_procurar)
+// Não vi onde implementar o findo nos exercicios, então eu deixei um exemplo da sintaxe do find acima
+
 let maior = 0
 let menor = 0
 
