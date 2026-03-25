@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div style="height: 20%; width: 100%;">
+            <div class="header center">
+                <h1 class="center">Painel de Análise de Produtos</h1>
+            </div>
+        </div>
+
+        <div style="height: 60%; width: 100%;">
+            <div class="cards_container">
+                <div class="card">
+                    <div class="center partial_20">
+                        <p>Produto mais caro:</p>
+                    </div>
+                    <div class="center partial_80">
+                        <p class="center info" id="mais_caro"></p>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="center partial_20">
+                        <p>Produto com maior quantidade:</p>
+                    </div>
+                    <div class="center partial_80">
+                        <p class="center info" id="mais_quantidade"></p>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <div class="center partial_20">
+                        <p>Valor total em estoque:</p>
+                    </div>
+                    <div class="center partial_80">
+                        <p class="center info" id="valor_total"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="forms center">
+                <div style="width: 80%; height: 80%; flex-direction: column;">
+                    <div class="partial_20 center">
+                        <h1> Cadastro de Item </h1>
+                    </div>
+    
+                    <div class="partial_80 center" style="flex-direction: column;">
+                        <div style="height: 80%; width: 80%; flex-direction: column;">
+                            <div class="partial_80 vertical" style="justify-content: space-evenly;">
+                                <div class="vertical">
+                                    <p>Nome do Produto: </p>
+                                    <input id="In_nome" type="text">
+                                </div>
+
+                                <div class="vertical">
+                                    <p>Preço do Produto: </p>
+                                    <input id="In_preco" type="number">
+                                </div>
+
+                                <div class="vertical">
+                                    <p>Quantidade do Produto: </p>
+                                    <input id="In_quantidade" type="number">
+                                </div>
+                            </div>
+
+                            <div class="partial_20 center">
+                                <button id="btn_adicionar" class="button"> Adicionar Item </button>
+                            </div>
+
+                        </div>
+
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="center" style="height: 20%; width: 100%;">
+            <div class="footer">
+                <p>Nada para se ver aqui...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
